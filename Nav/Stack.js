@@ -1,7 +1,7 @@
 import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import TopTab from "./TopTab";
-import TagSearch from "../Tab/TagSearch";
+import TopTab from "../Nav/TopTab";
+import Record from "../Tab/Record";
 
 const ns = createNativeStackNavigator();
 
@@ -14,8 +14,8 @@ const Stack = () => {
                 options={{headerShown: false}}    
             ></ns.Screen>
             <ns.Screen
-                name = "TagSearch"
-                component={TagSearch}  
+                name = "Record"
+                component={Record}  
                 options={{headerTitleStyle: {color: "#fff"}}}  
             ></ns.Screen>
         </ns.Navigator>
