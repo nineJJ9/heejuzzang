@@ -16,7 +16,7 @@ const Stack = () => {
             <ns.Screen
                 name = "TagSearch"
                 component={TagSearch}  
-                options={{headerTitleStyle: {color: "#FFF"}}}  
+                options={{headerTitleStyle: {color: "white"}}}  
             ></ns.Screen>
         </ns.Navigator>
     )
