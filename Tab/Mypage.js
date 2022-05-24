@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 import { Ionicons } from '@expo/vector-icons';
 
-const MYpage = () => {
+const MYpage = ({navigation}) => {
   return (
     <View style={styles.container}>
       <View style={{
@@ -16,7 +16,8 @@ const MYpage = () => {
         marginBottom: 30
         }}>
         <Text style={{fontSize: 20}}>3월 1일 거문오름</Text>
-        <TouchableOpacity>
+        <TouchableOpacity
+          onPress={() => navigation.navigate("Record")}>
           <Ionicons name="pencil" size={25} color="black" />
         </TouchableOpacity>
       </View>
