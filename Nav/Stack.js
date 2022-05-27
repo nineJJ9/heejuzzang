@@ -2,6 +2,9 @@ import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import TopTab from "../Nav/TopTab";
 import Record from "../Tab/Record";
+import Stamp from "../Tab/Stamp";
+import Bookmark from "../Tab/Bookmark";
+import Button from "../Tab/Button";
 
 const ns = createNativeStackNavigator();
 
